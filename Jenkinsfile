@@ -44,3 +44,4 @@ pipeline {
             echo '❌ Le pipeline a échoué.'
         }
     }
+}
