@@ -26,5 +26,7 @@ $users = $pdo->query("SELECT * FROM users");
         </tr>
         <?php endforeach; ?>
     </table>
+    <div>
+        </div>
 </body>
-</html>
+</html> 
