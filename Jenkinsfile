@@ -3,7 +3,7 @@ pipeline {
 
     environment {
         DEPLOY_DIR = "/var/www/html/Continuous_deploiement" // Répertoire web
-        REPO_URL = "https://github.com/moussa04gueye/Continuous_deploiement.git"
+        REPO_URL = "https://github.com/pepiteDK/Continuous_deploiement.git"
         BRANCH = "main"
     }
 
