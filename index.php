@@ -11,7 +11,7 @@ $users = $pdo->query("SELECT * FROM users");
 </head>
 <body>
     <h1>Liste des utilisateurs</h1>
-    <a href="create.php">➕ Ajouter une utilisateur</a>
+    <a href="create.php">➕ Ajouter un utilisateur</a>
     <table>
         <tr><th>ID</th><th>Nom</th><th>Email</th><th>Actions</th></tr>
         <?php foreach ($users as $user): ?>
